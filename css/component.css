@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f7fa;
+}
+
+.page-header {
+    text-align: center;
+    background: linear-gradient(to right, #003366, #0066cc);
+    color: white;
+    padding: 40px 20px;
+}
+
+.hardware-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 40px;
+}
+
+.hardware-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    padding: 20px;
+    transition: 0.3s;
+}
+
+.hardware-card:hover {
+    transform: translateY(-5px);
+}
+
+.hardware-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.hardware-card h2 {
+    color: #003366;
+    margin-top: 15px;
+}
+
+.page-footer {
+    text-align: center;
+    padding: 20px;
+    background: #003366;
+    color: white;
+}
